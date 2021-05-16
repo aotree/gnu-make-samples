@@ -1,0 +1,5 @@
+CMD := ls $(LS_OPT)
+LS_OPT = -a
+
+all:
+	$(CMD)
